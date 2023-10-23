@@ -9,7 +9,7 @@ USERNAME = "__token__"
 TOKEN = input("Please input your PONTOS HUB token: ")
 
 # This will listen in on all messages published by the vessel Burö (with IMO nr 8602713)
-SUBSCRIBE_TOPIC = "PONTOS_HUB/imo_8602713/#"
+SUBSCRIBE_TOPIC = "PONTOS_EGRESS/imo_8602713/#"
 
 RETURN_CODES = {
     0: "Connection successful",
