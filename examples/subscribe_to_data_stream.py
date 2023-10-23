@@ -30,7 +30,7 @@ logging.basicConfig(
 client = Client(transport="websockets")
 
 # Enabling the logger for the paho-mqtt library is a good thing. It makes it much easier
-# to understand what may
+# to understand what may have happened in case of unexpected failures.
 client.enable_logger(logging.getLogger("paho"))
 
 # Specify the path where the broker listens for websocket connections
